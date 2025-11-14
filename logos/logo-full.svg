@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="640" height="160" viewBox="0 0 640 160">
+  <!-- Flower icon (your exact geometry) -->
+  <g transform="translate(80,80)">
+    <!-- long beams (dark blue) -->
+    <rect x="-7" y="-52" width="14" height="34" rx="7"
+          fill="#385F9C" transform="rotate(0)" />
+    <rect x="-7" y="-52" width="14" height="34" rx="7"
+          fill="#385F9C" transform="rotate(60)" />
+    <rect x="-7" y="-52" width="14" height="34" rx="7"
+          fill="#385F9C" transform="rotate(120)" />
+    <rect x="-7" y="-52" width="14" height="34" rx="7"
+          fill="#385F9C" transform="rotate(180)" />
+    <rect x="-7" y="-52" width="14" height="34" rx="7"
+          fill="#385F9C" transform="rotate(240)" />
+    <rect x="-7" y="-52" width="14" height="34" rx="7"
+          fill="#385F9C" transform="rotate(300)" />
+
+    <!-- short beams (light blue, longer inward) -->
+    <rect x="-6" y="-52" width="12" height="26" rx="6"
+          fill="#58A7EB" transform="rotate(30)" />
+    <rect x="-6" y="-52" width="12" height="26" rx="6"
+          fill="#58A7EB" transform="rotate(90)" />
+    <rect x="-6" y="-52" width="12" height="26" rx="6"
+          fill="#58A7EB" transform="rotate(150)" />
+    <rect x="-6" y="-52" width="12" height="26" rx="6"
+          fill="#58A7EB" transform="rotate(210)" />
+    <rect x="-6" y="-52" width="12" height="26" rx="6"
+          fill="#58A7EB" transform="rotate(270)" />
+    <rect x="-6" y="-52" width="12" height="26" rx="6"
+          fill="#58A7EB" transform="rotate(330)" />
+  </g>
+
+  <!-- Text + i-dot grouped so we can position everything relative -->
+  <g transform="translate(170,104)">
+    <!-- Text: ProboLabs.ai -->
+    <text x="-20" y="0"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="76"
+          font-weight="700"
+          letter-spacing="0em">
+      <!-- Probo (dark) -->
+      <tspan fill="#083981">Probo</tspan>
+      <!-- Labs (light) – dx slightly negative to avoid tiny gap -->
+      <tspan fill="#58A7EB" dx="-10">Labs</tspan>
+      <!-- dot (dark) -->
+      <tspan fill="#385F9C" dx="-15">.</tspan>
+      <!-- ai (light) -->
+      <tspan fill="#58A7EB" dx="-10">ai</tspan>
+    </text>
+
+    <!-- Extra i-dot (dark blue), positioned approximately above the i -->
+    <!-- You can fine-tune cx/cy in a vector editor if needed -->
+    <circle cx="433" cy="-51" r="6" fill="#385F9C" />
+  </g>
+</svg>

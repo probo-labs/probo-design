@@ -37,16 +37,16 @@
     <text x="-20" y="0"
           font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
           font-size="76"
-          font-weight="700"
+          font-weight="600"
           letter-spacing="0em">
       <!-- Probo (dark) -->
       <tspan fill="#083981">Probo</tspan>
       <!-- Labs (light) – dx slightly negative to avoid tiny gap -->
-      <tspan fill="#58A7EB" dx="-10">Labs</tspan>
+      <tspan fill="#58A7EB" dx="-10" font-weight="300">Labs</tspan>
       <!-- dot (dark) -->
-      <tspan fill="#385F9C" dx="-15">.</tspan>
+      <tspan fill="#385F9C" dx="-15" font-weight="300">.</tspan>
       <!-- ai (light) -->
-      <tspan fill="#58A7EB" dx="-10">ai</tspan>
+      <tspan fill="#58A7EB" dx="-10" font-weight="300">ai</tspan>
     </text>
 
     <!-- Extra i-dot (dark blue), positioned approximately above the i -->
